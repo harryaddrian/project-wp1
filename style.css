@@ -10,6 +10,7 @@
   background-color: #ffffff;
   font-family: Arial;
 }
+
 /* css career center start */
 .cc-img {
   width: 32rem;
@@ -47,6 +48,9 @@
   height: 14rem;
 }
 
+.tombol-detail {
+  color: #8dbdf8;
+}
 /*css pendaftaran end */
 
 /* css tentangkami start */
@@ -82,6 +86,14 @@
 
 /* css index start */
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #9ac6f9;
+  text-align: center;
+}
 /* css index end */
 
 
