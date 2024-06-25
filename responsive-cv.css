@@ -1,0 +1,41 @@
+@media screen and (max-width: 1400px) and (min-width: 991px){
+  
+    .cv-kaprodi {
+      height: 26rem;
+      
+    }
+  
+    .cv-kaprodi-text {
+      height: 80px;
+      font-size: 12px;
+    }
+    
+  }
+  @media screen and (max-width: 992px) and (min-width: 768px){
+    
+    .cv-kaprodi {
+      height: 26rem;
+    }
+  
+    .cv-kaprodi-text {
+      height: 80px;
+      font-size: 10px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 767px) and (min-width: 575px) {
+    
+    .cv-kaprodi {
+      height: 25rem;
+    }
+  
+    .cv-kaprodi-text {
+      height: 80px;
+      font-size: 12px;
+    }
+  }
+
+  
+  @media screen and (max-width: 575px) {
+  }

@@ -1,0 +1,23 @@
+@media screen and (max-width: 575px) {
+  .poto {
+    height: 200px;
+    width: 300px;
+    padding-left: 60px;
+  }
+  .brd-text {
+    text-align: center;
+  }
+
+  .footer {
+    font-size: x-small;
+  }
+
+  .foot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .tulisan {
+    text-align: left;
+  }
+}
