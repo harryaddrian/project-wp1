@@ -35,7 +35,10 @@
       font-size: 12px;
     }
   }
-  .footer {
+  
+  
+  @media screen and (max-width: 575px) {
+    .footer {
     font-size: x-small;
   }
 
@@ -47,9 +50,8 @@
   .tulisan {
     text-align: left;
   }
-  
-  @media screen and (max-width: 575px) {
-  
+}
+    
   }
 
   section { 
@@ -69,3 +71,4 @@
   .hijau {
     background-color: green;
   }
+
