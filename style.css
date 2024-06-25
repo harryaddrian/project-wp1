@@ -86,13 +86,10 @@
 
 /* css index start */
 
-footer {
+.footer {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
   background: #9ac6f9;
-  text-align: center;
+  bottom: 0;
 }
 /* css index end */
 
