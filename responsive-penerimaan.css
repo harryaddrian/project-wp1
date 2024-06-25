@@ -1,0 +1,16 @@
+@media screen and (max-width: 575px) {
+  .footer {
+    font-size: x-small;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .foot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .tulisan {
+    text-align: left;
+  }
+}
