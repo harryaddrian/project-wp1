@@ -35,23 +35,22 @@
       font-size: 12px;
     }
   }
-  
+
   
   @media screen and (max-width: 575px) {
     .footer {
-    font-size: x-small;
-  }
-
-  .foot {
-    width: 10px;
-    height: 10px;
-  }
-
-  .tulisan {
-    text-align: left;
-  }
-}
-    
+      font-size: x-small;
+    }
+  
+    .foot {
+      width: 10px;
+      height: 10px;
+    }
+  
+    .tulisan {
+      text-align: left;
+    }
+  
   }
 
   section { 
@@ -71,4 +70,3 @@
   .hijau {
     background-color: green;
   }
-
