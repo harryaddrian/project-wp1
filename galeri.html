@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-galeri.css">
+    <link href="Aset/icon.png" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <script src="animation.js"></script>
+    <script src="filter.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- navigasi start -->
+<nav class="navbar navbar-expand-lg mb-4 sticky-top navbar-light bg-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand text-dark" href="index.html"><img src="Aset/logo.png" style="height:40px; width:200px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-lg-2">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="tentangkami.html">Tentang Kami</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #ffffff;">
+              Lainnya
+            </a>
+            <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="penerimaan.html">Penerimaan</a></li>
+              <li><a class="dropdown-item" href="civitas.html">Civitas</a></li>
+              <li><a class="dropdown-item" href="career.html">Career Center</a></li>
+              <li><a class="dropdown-item" href="galeri.html">Galeri</a></li>
+              <li><a class="dropdown-item" href="kontak.html">Hubungi Kami</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navigasi end -->
+  <!-- content start -->
+  <div class="container">
+    <h4>KEGIATAN UNIVERSITAS</h4>
+    <hr>
+    <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+      <div class="card p-0">
+        <img src="Aset/pmb.jpg" alt="img">
+        <div class="card-body">
+          <h6 class="card-title">Penerimaan Mahasiswa Baru</h6>
+          <p class="card-text">Kegiatan Penerimaan Mahasiswa Baru di BCC</p>
+          <text class="fs-6 fst-italic">Minggu, 10 September 2023</text>
+        </div>
+      </div>
+      <div class="card p-0">
+        <img src="Aset/kegiatan2.jpg" alt="img">
+        <div class="card-body">
+            <h6 class="card-title">Kegiatan Cinta Tanah Air</h6>
+            <p class="card-text">Bersama membersihkan Taman Kota Bekasi</p>
+            <text class="fs-6 fst-italic">Minggu, 8 Juni 2024</text>
+        </div>
+      </div>
+      <h4 class="mt-5">PRESTASI</h4>
+      <hr>
+      <div class="row px-2 gap-3 reveal" id="filterable-cards">
+      <div class="card p-0">
+        <img src="Aset/prestasi1.jpeg" alt="img">
+        <div class="card-body">
+          <h6 class="card-title">Penerima Anugerah Kategori Pendidikan Tinggi Akademik Terbaik</h6>
+          <p class="card-text">UNIVERSITAS CIKARANG memperoleh anugerah  kategori Pendidikan Tinggi Akademik terbaik penyelenggara MBKM, penghargaan diserahkan oleh Pelaksana tugas (Plt.) Direktur Jenderal Pendidikan Tinggi, Riset, dan Teknologi (Dirjen Diktiristek), Nizam.</p>
+          <text class="fs-6 fst-italic">Selasa, 14 November 2023</text>
+        </div>
+      </div>
+      <div class="card p-0">
+        <img src="Aset/prestasi2.jpg" alt="img">
+        <div class="card-body">
+          <h6 class="card-title">Penerima Anugerah Pendidikan Tinggi Vokasi Terbaik</h6>
+          <p class="card-text">Perguruan tinggi dengan jumlah mahasiswa terbanyak yang mengikuti Kampus Merdeka Vokasi diberikan kepada <b>UNIVERSITAS CIKARANG</b></p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- content end -->
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-dark mt-5 reveal"
+          style="background-color: #ECEFF1"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4 text-white reveal"
+             style="background-color: #228b22"
+             >
+    </section>
+    <!-- Section: Social media -->
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5 reveal">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Pilihan Jurusan</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #228b22; height: 2px"
+                />
+            <p>
+              S1 - Teknik Informasi<br>
+              S1 - Sistem Informasi<br>
+              S1 - Manajemen Bisnis<br>
+              S1 - Akuntansi<br>
+              S1 - Bahasa Inggris<br>
+              S1 - Sastra Inggris
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Lainnya</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #228b22; height: 2px"
+                />
+            <p>
+              <a href="penerimaan.html" class="text-dark">Penerimaan</a>
+            </p>
+            <p>
+              <a href="civitas.html" class="text-dark">Civitas</a>
+            </p>
+            <p>
+              <a href="career.html" class="text-dark">Career Center</a>
+            </p>
+            <p>
+              <a href="#" class="text-dark">Galeri</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Hubungi Kami</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #228b22; height: 2px"
+                />
+            <p><img src="Aset/home.png" width="20px" height="20px"> Jl. Cikarang Raya 17150</p>
+            <p><img src="Aset/email.png" width="20px" height="20px"> univcikarang@email.com</p>
+            <p><img src="Aset/whatsapp.png" width="20px" height="20px"> +62 896 1525 2330</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2024 Copyright : Universitas Cikarang
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <!-- hubungi kami toogle start -->
+    <div class="container-fluid d-flex justify-content-end fixed-bottom lg-px-5 lg-py-5 py-4 px-2">
+        <a href="https://wa.me/+6289615252330"><button type="button" class="btn btn-success rounded-pill "><img src="Aset/whatsapp-o.png" width="20px" height="20px"> Ada yang bisa kami bantu ?</button></a>
+    </div>
+  <!-- hubungi kami toogle end -->
+</body>
+</html>
