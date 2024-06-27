@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body class="bg">
+  <script src="animation.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <!-- navigasi start -->
   <nav class="navbar navbar-expand-lg mb-4 sticky-top navbar-light bg-nav">
@@ -34,6 +35,7 @@
               <li><a class="dropdown-item" href="penerimaan.html">Penerimaan</a></li>
               <li><a class="dropdown-item" href="civitas.html">Civitas</a></li>
               <li><a class="dropdown-item" href="career.html">Career Center</a></li>
+              <li><a class="dropdown-item" href="galeri.html">Galeri</a></li>
               <li><a class="dropdown-item" href="kontak.html">Hubungi Kami</a></li>
             </ul>
           </li>
@@ -43,28 +45,50 @@
   </nav>
   <!-- navigasi end -->
     <!-- content start -->
-    <div class="container animation">
-      <div class="row row-cols-1 row-cols-lg-2 align-items-center" style="height:450px">
-        <div class="col">
-          <img src="Aset/peoplehome.png" class="poto">
+     <div class="container animation">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-dark" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="Aset/poster.jpg" class="d-block w-100"  alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-light">PEMBUKAAN PENDAFTARAN GELOMBANG I</h5>
+          </div>
         </div>
-        <div class="col">
-          <text class="brd-text">
-          <h2 class="text-dark">Hello, Selamat Datang</h2>
-          <br>
-          <h3 class="text-dark">  
-            Raihlah Masa Depan<br>
-            di Mulai Dari Sini
-          </h3>
-          <br>
-          <h5 class="text-dark">
-            Mulailah petualangan akademik anda bersama kami<br>
-            di <b>UNIVERSITAS CIKARANG</b>
-          </h5>
-          </text>
+        <div class="carousel-item" data-bs-interval="2000">
+          <embed src="Aset/universitas3.jfif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <embed src="Aset/pmb.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4 class="text-light">KEGIATAN PMB</h4>
+            <h6 class="text-light">Tahun 2023</h6>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="Aset/kegiatan2.jpg" class="d-block w-100"  alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-light">KEGIATAN CINTA TANAH AIR</h5>
+          </div>
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </div>
     <!-- content end -->
   <!-- Footer -->
   <footer
@@ -87,10 +111,10 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold">Universitas Cikarang</h6>
+            <h6 class="text-uppercase fw-bold">Pilihan Jurusan</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+                style="width: 60px; background-color: #228b22; height: 2px"
                 />
             <p>
               S1 - Teknik Informasi<br>
@@ -110,10 +134,10 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold dropdown-toggle">Lainnya</h6>
+            <h6 class="text-uppercase fw-bold">Lainnya</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+                style="width: 60px; background-color: #228b22; height: 2px"
                 />
             <p>
               <a href="penerimaan.html" class="text-dark">Penerimaan</a>
@@ -136,7 +160,7 @@
             <h6 class="text-uppercase fw-bold">Hubungi Kami</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+                style="width: 60px; background-color: #228b22; height: 2px"
                 />
             <p><img src="Aset/home.png" width="20px" height="20px"> Jl. Cikarang Raya 17150</p>
             <p><img src="Aset/email.png" width="20px" height="20px"> univcikarang@email.com</p>
@@ -159,8 +183,10 @@
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
+  <!-- hubungi kami toogle start -->
     <div class="container-fluid d-flex justify-content-end fixed-bottom lg-px-5 lg-py-5 py-4 px-2">
-  <a href="https://wa.me/+6289615252330"><button type="button" class="btn btn-success rounded-pill "><img src="Aset/whatsapp-o.png" width="20px" height="20px"> Ada yang bisa kami bantu ?</button></a>
-</div>
+        <a href="https://wa.me/+6289615252330"><button type="button" class="btn btn-success rounded-pill "><img src="Aset/whatsapp-o.png" width="20px" height="20px"> Ada yang bisa kami bantu ?</button></a>
+    </div>
+  <!-- hubungi kami toogle end -->
 </body>
 </html>
