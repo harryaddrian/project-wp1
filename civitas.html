@@ -8,9 +8,9 @@
     <link href="Aset/icon.png" rel="icon">
     <link rel="stylesheet" href="responsive-cv.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
 </head>
 <body class="bg">
+    <script src="animation.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- navigasi start -->
     <nav class="navbar navbar-expand-lg mb-4 sticky-top navbar-light bg-nav">
@@ -35,6 +35,7 @@
                 <li><a class="dropdown-item" href="penerimaan.html">Penerimaan</a></li>
                 <li><a class="dropdown-item" href="civitas.html">Civitas</a></li>
                 <li><a class="dropdown-item" href="career.html">Career Center</a></li>
+                <li><a class="dropdown-item" href="galeri.html">Galeri</a></li>
                 <li><a class="dropdown-item" href="kontak.html">Hubungi Kami</a></li>
               </ul>
             </li>
@@ -52,7 +53,7 @@
         <div class="col">
             <div class="card-body cv-kaprodi-bg shadow cv-border">
               <p class="card-text cv-card-rektor-text"><em>"Jangan turu wae."</em></p>
-              <img src="Aset/man.png" class="card-img">
+              <img src="Aset/harry.png" class="card-img">
               <h5 class="card-title cv-card-kaprodi-title">Harry Addrian</h5>
               <h6>Rektor Universitas Cikarang</h6>
               </div>
@@ -63,36 +64,52 @@
         <br>
         <center><h4>Kepala Program Studi</h4></center>
         <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-3">
-        <div class="col">
+        <div class="col reveal">
             <div class="card-body cv-kaprodi-bg shadow text-center cv-kaprodi cv-border">
               <p class="card-text cv-kaprodi-text"><em>"Jangan pernah berhenti belajar, karena hidup tak pernah berhenti memberikan pelajaran."</em></p>
-              <img src="Aset/man.png" class="card-img">
+              <img src="Aset/riksa.png" class="card-img">
               <h5 class="card-title" style="padding-top: 10px;">Riksa Ukman Z.</h5>
               <h6>Kaprodi Sistem Informasi</h6>
               </div>
               </div>
-          <div class="col">
+          <div class="col reveal">
               <div class="card-body cv-kaprodi-bg shadow text-center cv-kaprodi cv-border">
                 <p class="card-text cv-kaprodi-text"><em>"Ketekunan dan disiplin dalam belajar adalah kunci untuk meraih prestasi. Setiap usaha yang kamu lakukan hari ini akan memberikan hasil di masa depan."</em></p>
-              <img src="Aset/man.png" class="card-img">
+              <img src="Aset/rafiq.png" class="card-img">
                 <h5 class="card-title" style="padding-top: 10px;">Rafiq Affandy</h5>
-                <h6>Kaprodi Teknik Informatika</h6>
+                <h6>Kaprodi Teknik Informasi</h6>
               </div>
             </div>
-        <div class="col">
+        <div class="col reveal">
           <div class="card-body cv-kaprodi-bg shadow text-center cv-kaprodi cv-border">
               <p class="card-text cv-kaprodi-text"><em>"Lu punya duit, lu punya kuasa. Tapi kalo lu gak punya ilmu dan pengetahuan lu ga ada apa-apanya."</em></p>
-              <img src="Aset/man.png" class="card-img">
+              <img src="Aset/adi.png" class="card-img">
               <h5 class="card-title" style="padding-top: 10px;">Adi Atmojo</h5>
               <h6>Kaprodi Manajemen Bisnis</h6>
             </div>
           </div>
-      <div class="col">
+      <div class="col reveal">
             <div class="card-body cv-kaprodi-bg shadow text-center cv-kaprodi cv-border">
               <p class="card-text cv-kaprodi-text"><em>"Ayo belajar! Rebahan gak bikin kamu pintar dan kaya raya."</em></p>
-            <img src="Aset/man.png" class="card-img">
+            <img src="Aset/rouf.png" class="card-img">
               <h5 class="card-title" style="padding-top: 10px;">Ngabdur Rouf</h5>
-              <h6>Kaprodi Ilmu Komunikasi</h6>
+              <h6>Kaprodi Akuntansi</h6>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="card-body cv-kaprodi-bg shadow text-center cv-kaprodi cv-border">
+              <p class="card-text cv-kaprodi-text"><em>"Masa depan adalah milik mereka yang menyiapkan hari ini."</em></p>
+            <img src="Aset/khafidah.png" class="card-img">
+              <h5 class="card-title" style="padding-top: 10px;">Khafidah Catur W.</h5>
+              <h6>Kaprodi Bahasa Inggris</h6>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="card-body cv-kaprodi-bg shadow text-center cv-kaprodi cv-border">
+              <p class="card-text cv-kaprodi-text"><em>"Lakukan yang terbaik di setiap kesempatanmu."</em></p>
+            <img src="Aset/rona.png" class="card-img">
+              <h5 class="card-title" style="padding-top: 10px;">Rona Mega Dahlia</h5>
+              <h6>Kaprodi Sastra Inggris</h6>
             </div>
           </div>
       </div>
@@ -101,12 +118,12 @@
     <!-- content end -->
     <!-- Footer -->
   <footer
-  class="text-center text-lg-start text-dark mt-5"
+  class="text-center text-lg-start text-dark mt-5 reveal"
   style="background-color: #ECEFF1"
   >
 <!-- Section: Social media -->
 <section
-     class="d-flex justify-content-between p-4 text-white"
+     class="d-flex justify-content-between p-4 text-white reveal"
      style="background-color: #228b22"
      >
 </section>
@@ -114,13 +131,13 @@
 
 <!-- Section: Links  -->
 <section class="">
-<div class="container text-center text-md-start mt-5">
+<div class="container text-center text-md-start mt-5 reveal">
 <!-- Grid row -->
 <div class="row mt-3">
   <!-- Grid column -->
   <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
     <!-- Content -->
-    <h6 class="text-uppercase fw-bold">Universitas Cikarang</h6>
+    <h6 class="text-uppercase fw-bold">Pilihan Jurusan</h6>
     <hr
         class="mb-4 mt-0 d-inline-block mx-auto"
         style="width: 60px; background-color: #7c4dff; height: 2px"
@@ -192,7 +209,7 @@
 <!-- Copyright -->
 </footer>
 <!-- Footer -->
-    <div class="container-fluid d-flex justify-content-end fixed-bottom lg-px-5 lg-py-5 py-4 px-2">
+<div class="container-fluid d-flex justify-content-end fixed-bottom lg-px-5 lg-py-5 py-4 px-2">
   <a href="https://wa.me/+6289615252330"><button type="button" class="btn btn-success rounded-pill "><img src="Aset/whatsapp-o.png" width="20px" height="20px"> Ada yang bisa kami bantu ?</button></a>
 </div>
 </body>
