@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  font-family: "Poppins", sans-serif;
+}
 .bg-nav {
   background-color: #9ac6f9;
 }
@@ -8,7 +12,6 @@
 
 .bg {
   background-color: #ffffff;
-  font-family: Arial;
 }
 
 /* css career center start */
@@ -26,7 +29,7 @@
 }
 
 .cc-card {
-  height: 16rem;
+  height: 18rem;
 }
 
 .t-color {
@@ -90,7 +93,7 @@
 
 
 .animation {
-  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 
@@ -104,4 +107,16 @@
   100% {
     opacity: 1;
   }
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
